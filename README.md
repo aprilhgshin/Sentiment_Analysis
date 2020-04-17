@@ -2,6 +2,7 @@
 
 We compute the polarity (and normalized polarity) of tweets containing the hashtags *Coronavirus* and/or *Covid19*.
 Polarity will be based on vader's polarity scores.
+Additionally, we investigate the polarity of tweets with a reference to asian ethnic groups.
 
 Tweet texts will be cleaned by setting all characters to lowercase and removing words with backslash x, stopwords, links, and special characters using simple regex statements. 
 
