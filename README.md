@@ -14,6 +14,7 @@ Cleaned dataset by the following:
 - Remove website URLs
 - Removing links, special characters using simple regex statements
 - Remove stopwords
+
 Computed the polarity and normalized polarity scores of cleaned tweet texts using vader's polarity scores:
 - Polarity score is manually calculated using scores provided in vader's list of scores in vader_lexicon.txt
 - Normalized polarity score is calcuating using SentimentIntensityAnalyzer method from vaderSentiment.vaderSentiment module.
