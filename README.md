@@ -7,6 +7,7 @@ I compute the polarity (and normalized polarity) of tweets containing the hashta
 Additionally, I investigate the polarity of tweets with a reference to asian ethnic groups.
 
 
+
 ## Methods:
 Cleaned dataset by the following:
 - Lowercase text
@@ -18,18 +19,23 @@ Cleaned dataset by the following:
 Computed the polarity and normalized polarity scores of cleaned tweet texts using vader's polarity scores:
 - Polarity score is manually calculated using scores provided in vader's list of scores in vader_lexicon.txt
 - Normalized polarity score is calcuating using SentimentIntensityAnalyzer method from vaderSentiment.vaderSentiment module.
+
 Identified tweets with Asian reference and if user is a verified user
 - Tweets with any of the keywords such as 'asian', 'asians', 'chinese', 'china', and 'wuhan' are considered to have an Asian reference.
 - Defined a 'verified' user to be a user with >= 9000 followers.
+
 Identified the top five tweets with most negative or positive polarity scores
+
 Plotted the distributions and corresponding means of tweet polarities of various categories:
 - Tweets with and without Asian references
 - Tweets posted by 'verified' users vs 'normal' users
+
 Determined correlation between mean polarity scores and number of coronavirus cases in each US state:
 - Identified tweets with valid locations in the US (using major city and state names to determine tweet location)
 - Mapped polarity scores and number of coronavirus cases to corresponding locations on geopandas map of the US
 - Computed Pearson's correlation coefficient to study the strength of the linear relationship between the two variables
 - Computed Spearman's correlation coefficient to determine if there exists a nonlinear relationship between the two variables
+
 
 
 ## Resulting DataFrame with Polarity Scores:
