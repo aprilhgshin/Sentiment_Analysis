@@ -6,6 +6,11 @@ This study presents a comprehensive analysis of sentiment on Asian ethnic groups
 I compute the polarity (and normalized polarity) of tweets containing the hashtags *Coronavirus* and/or *Covid19*. Polarity will be based on vader's polarity scores.
 Additionally, I investigate the polarity of tweets with Asian references.
 
+## Files in the Repository:
+- *coronavirus_covid19_hashtags.ipynb* is the jupyter notebook that contains the analysis. 
+- Shapefiles (.shp) are used to create Geopandas maps for visual aid
+- CSV files contain datasets used for analysis in the jupyter notebook.
+
 ## Data Source:
 ~1000 Twitter postings from April 14, 2020 derived using Twitter's API.
 
@@ -36,8 +41,6 @@ Additionally, I investigate the polarity of tweets with Asian references.
   - Mapped polarity scores and number of coronavirus cases to corresponding locations on geopandas map of the US
   - Computed Pearson's correlation coefficient to study the strength of the linear relationship between the two variables
   - Computed Spearman's correlation coefficient to determine if there exists a nonlinear relationship between the two variables
-
-
 
 ## Resulting DataFrame with Polarity Scores:
 The result is stored in DataFrame tweets_df with the following columns:
