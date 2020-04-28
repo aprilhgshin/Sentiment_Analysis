@@ -7,9 +7,7 @@ I compute the polarity (and normalized polarity) of tweets containing the hashta
 Additionally, I investigate the polarity of tweets with Asian references.
 
 ## Data Source:
-~2000 Twitter postings from April 14, 2020 derived using Twitter's API.
-  - Each tweet contains at least one of the following hashtags: Coronavirus, Covid19, Asian, Asians, Kungflu, Chinesevirus
-
+~1000 Twitter postings from April 14, 2020 derived using Twitter's API.
 
 ## Methods:
 - Cleaned dataset by the following:
