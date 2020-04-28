@@ -8,7 +8,7 @@ Additionally, I investigate the polarity of tweets with Asian references.
 
 ## Files in Repository:
 - *coronavirus_covid19_hashtags.ipynb* is the jupyter notebook that contains the analysis. 
-- Shapefiles (.shp) are used to create Geopandas maps for visual aid
+- Shapefiles are used to create Geopandas maps for visual aid
 - CSV files contain datasets used for analysis in the jupyter notebook.
 - *vader_lexicon.txt* contains VADER's list of polarity scores.
 
