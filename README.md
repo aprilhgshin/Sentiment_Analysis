@@ -12,7 +12,7 @@ Additionally, I investigate the polarity of tweets with Asian references.
 - CSV files contain datasets used for analysis in the jupyter notebook.
 
 ## Data Source:
-~1000 Twitter postings from April 14, 2020 derived using Twitter's API.
+~1000 Twitter postings from April of 2020 are derived using Twitter's API.
 
 ## Methods:
 - Cleaned dataset by the following:
