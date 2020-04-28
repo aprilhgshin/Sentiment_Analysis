@@ -6,6 +6,9 @@ This study presents a comprehensive analysis of sentiment on Asian ethnic groups
 I compute the polarity (and normalized polarity) of tweets containing the hashtags *Coronavirus* and/or *Covid19*. Polarity will be based on vader's polarity scores.
 Additionally, I investigate the polarity of tweets with Asian references.
 
+## Data Source:
+~2000 Twitter postings from April 14, 2020 derived using Twitter's API.
+  - Each tweet contains at least one of the following hashtags: Coronavirus, Covid19, Asian, Asians, Kungflu, Chinesevirus
 
 
 ## Methods:
