@@ -9,22 +9,22 @@ Additionally, I investigate the polarity of tweets with a reference to asian eth
 
 
 ## Methods:
-Cleaned dataset by the following:
-- Lowercase text
-- Remove words with backslash x
-- Remove website URLs
-- Removing links, special characters using simple regex statements
-- Remove stopwords
+- Cleaned dataset by the following:
+  - Lowercase text
+  - Remove words with backslash x
+  - Remove website URLs
+  - Removing links, special characters using simple regex statements
+  - Remove stopwords
 
 Computed the polarity and normalized polarity scores of cleaned tweet texts using vader's polarity scores:
 - Polarity score is manually calculated using scores provided in vader's list of scores in vader_lexicon.txt
 - Normalized polarity score is calcuating using SentimentIntensityAnalyzer method from vaderSentiment.vaderSentiment module.
 
-Identified tweets with Asian reference and if user is a verified user
+Identified tweets with Asian reference and if user is a verified user:
 - Tweets with any of the keywords such as 'asian', 'asians', 'chinese', 'china', and 'wuhan' are considered to have an Asian reference.
 - Defined a 'verified' user to be a user with >= 9000 followers.
 
-Identified the top five tweets with most negative or positive polarity scores
+Identified the top five tweets with most negative or positive polarity scores.
 
 Plotted the distributions and corresponding means of tweet polarities of various categories:
 - Tweets with and without Asian references
