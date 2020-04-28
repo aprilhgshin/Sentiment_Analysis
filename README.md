@@ -41,14 +41,14 @@ Determined correlation between mean polarity scores and number of coronavirus ca
 ## Resulting DataFrame with Polarity Scores:
 The result is stored in DataFrame tweets_df with the following columns:
 
-timestamp
-tweet_text
-username
-all_hashtags
-followers_count
-location
-clean_text
-polarity
-normalized_polarity
-verified_user
+- timestamp
+- tweet_text
+- username
+- all_hashtags
+- followers_count
+- location
+- clean_text
+- polarity
+- normalized_polarity
+- verified_user
 
