@@ -1,4 +1,4 @@
-# Sentiment_Analysis of Social Media Towards Asian Ethnic Groups
+# Sentiment Analysis of Social Media Towards Asian Ethnic Groups
 
 ## Introduction
 This study presents a comprehensive analysis of sentiment on Asian ethnic groups all over the world. The social sentiment was conducted on tweets gathered from twitter during COVID-19's peak in April of 2020. The focus of this research is to shed light on the negative social impact that COVID-19 has had on Asians. The aim is to prove that negative sentiment exists, and to further educate people on the issue.
