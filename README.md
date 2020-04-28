@@ -1,4 +1,7 @@
-# Sentiment_Analysis
+# Sentiment_Analysis of Social Media Towards Asian Ethnic Groups
+
+## Introduction
+This study presents a comprehensive analysis of sentiment on Asian's all over the world. The social sentiment was conducted on tweets gathered from twitter during COVID-19's peak in April of 2020. The focus of this research is to shed light on the negative social impact that COVID-19 has had on Asians. The aim is to prove that negative sentiment exists, and to further educate people on the issue.
 
 We compute the polarity (and normalized polarity) of tweets containing the hashtags *Coronavirus* and/or *Covid19*.
 Polarity will be based on vader's polarity scores.
