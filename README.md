@@ -60,5 +60,4 @@ The result is stored in DataFrame tweets_df with the following columns:
 
 
 
-##### Data Science Society
-April Shin
+##### Data Science Society, April Shin
