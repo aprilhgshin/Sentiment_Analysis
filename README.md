@@ -58,4 +58,5 @@ The result is stored in DataFrame tweets_df with the following columns:
 - verified_user
 
 Data Science Society
+
 April Shin
